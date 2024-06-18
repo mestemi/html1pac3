@@ -1,0 +1,15 @@
+<svg viewBox="0 0 350 50" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    text {
+      font-family: 'Pacifico', cursive;
+    }
+  </style>
+  <g fill="#fff">
+    <polygon points="30,0 35,20 50,20 38,30 42,45 30,35 18,45 22,30 10,20 25,20" fill="#ff8a80" stroke-width="3" stroke="#ffecb3" />
+    <!-- Texto -->
+    <text x="55%" y="65%" dominant-baseline="middle" text-anchor="middle" font-size="40">
+      Clint Eastwood
+    </text>
+  </g>
+</svg>

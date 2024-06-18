@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: $font-family-default;
+    font-weight: 400;
+    font-style: normal;
+    background-color: $color-bg;
+}
+
+a {
+    color: $color-link;
+    text-decoration: none;
+    font-weight: 700;
+
+    &:hover{
+        color: $color-link-hover;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hidden {
+    visibility: hidden !important;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    outline: 0;
+    padding: 13px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    background-color: $color-white;
+
+    &--yellow {
+        background-color: $color-btn-yellow;
+        color: $color-secondary;
+
+        &:hover {
+            background-color: $color-btn-yellow-hover;
+            transition: background-color 0.3s ease-in-out;
+        }
+    }
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item-70 {
+    flex: 70%;
+    padding-right: 10px;
+}
+
+.flex-item-30 {
+    flex: 30%;
+}
+
+@media (max-width: 799px) {
+    .flex-item-70, .flex-item-30 {
+      flex: 100%;
+    }
+}
+
+@keyframes whiteToBlack {
+    0% {
+        fill: transparent;
+        stroke: #000;
+        transform: scale(0.5);
+        stroke-width: 1;
+        
+    }
+    100% {
+        fill: #000;
+        stroke: #000;
+        transform: scale(1);
+        stroke-width: 3;
+    }
+}
+
+.svg-firma {
+    width: 200px;
+    height: auto;
+
+    path {
+        animation: whiteToBlack 3s ease-in-out;
+        stroke-width: 3;
+        stroke: #000;
+    }
+}
+
+@keyframes hover-img-animation {
+    0% {
+      transform: scale(1) rotate(0deg);
+    }
+    100% {
+      transform: scale(1.075) rotate(-2deg);
+    }
+}

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Clint Eastwood - Un Legado Cinematográfico</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss">
+    <link rel="icon" type="image/x-icon" href="./assets/images/clint-favicon.ico">
+    <script type="module" src="./assets/scripts/main.js"></script>
+    <link href="../node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <include src="./src/components/header.html"></include>
+
+    <main class="main">
+      <section class="main__section detail container">
+        <h1 class="main__title">
+          <span class="main__title--secondary">Cry Macho</span>
+        </h1>
+        <div class="detail__wrapper">
+          <div class="detail__list">
+            <ul>
+              <li>
+                <span class="detail__list--title">Director:</span>
+                <span class="detail__list--value">Clint Eastwood</span>
+              </li>
+              <li>
+                <span class="detail__list--title">Reparto:</span>
+                <span class="detail__list--value">Clint Eastwood, Dwight Yoakam, Fernanda Urrejola</span>
+              </li>
+              <li>
+                <span class="detail__list--title">Género:</span>
+                <span class="detail__list--value">Drama, Western</span>
+              </li>
+              <li>
+                <span class="detail__list--title">Duración:</span>
+                <span class="detail__list--value">104 minutos</span>
+              </li>
+              <li>
+                <span class="detail__list--title">Estreno:</span>
+                <span class="detail__list--value">2021</span>
+              </li>
+              <li>
+                <span class="detail__list--title">Sinopsis:</span>
+                <span class="detail__list--value">Texas, 1978. Una ex estrella de rodeo y criador de caballos retirado (Eastwood) acepta un encargo de un antiguo jefe: traer a su hijo pequeño desde México de vuelta a casa para alejarlo de su madre alcohólica. En el viaje, ambos se embarcarán en una inesperada aventura.</span>
+              </li>
+            </ul>
+          </div>
+          <div class="detail__more">
+            <div class="detail__image">
+              <img
+                srcset="
+                  ./assets/images/filmografia/crymacho.jpg?as=webp&width=350 350w
+                  ./assets/images/filmografia/crymacho.jpg?as=webp&width=260 260w,
+                  ./assets/images/filmografia/crymacho.jpg?as=webp&width=190 190w,
+                  ./assets/images/filmografia/crymacho.jpg?as=webp&width=150 150w"
+                src="./assets/images/filmografia/crymacho.jpg?width=350"
+                alt="Portada Cry Macho" />
+            </div>
+          </div>
+          <figure class="detail__picture">
+            <picture>
+              <source media="(max-width: 799px)" srcset="./assets/images/clint-directing-800w.jpg" />
+              <source media="(min-width: 800px)" srcset="./assets/images/clint-directing-1160w.jpg" />
+              <img src="./assets/images/clint-directing-1160w.jpg" alt="Clint Eastwood dirigiendo Cry Macho" />
+            </picture>
+            <figcaption> Clint Eastwood dirige el set de “Cry Macho”. (Claire Folger / Warner Bros.)</figcaption>
+          </figure>
+          <div class="critics">
+            <blockquote class="critics__quote" cite='https://www.abc.es/play/cine/criticas/abci-critica-macho-gigantesco-cine-menor-y-leccion-vida-viejo-clint-eastwood-202109240246_noticia.html'>
+              <q>
+                Gigantesco cine menor y lección de vida del viejo Clint Eastwood (...) No tiene nada y lo tiene todo (...) Vayan a ver la película como el niño que visita a su abuelo favorito. (…) Puntuación: ★★★★ (sobre 5)
+              </q>
+              <cite><a class="critics__quote-link" href="https://www.abc.es/play/cine/criticas/abci-critica-macho-gigantesco-cine-menor-y-leccion-vida-viejo-clint-eastwood-202109240246_noticia.html" target="_blank">Federico Marín Bellón; Diario ABC</a></cite>
+            </blockquote>
+            <blockquote class="critics__quote" cite='https://www.larazon.es/cultura/20210924/x5u6pasu65gxlb3d7x77tbz5ta.html'>
+              <q>
+                Parece como si Eastwood necesitara enseñarnos el espacio donde le gustaría morir, ese remanso de paz donde no pasa nada porque todo ya ha ocurrido. (…) Puntuación: ★★★★ (sobre 5)
+              </q>
+              <cite><a class="critics__quote-link" href="https://www.larazon.es/cultura/20210924/x5u6pasu65gxlb3d7x77tbz5ta.html" target="_blank">Sergi Sánchez: Diario La Razón</a></cite>
+            </blockquote>
+            <blockquote class="critics__quote" cite='https://www.fotogramas.es/peliculas-criticas/a37701822/cry-macho-critica-pelicula/'>
+              <q>
+                Está entre las películas más preciosas y optimistas del actor-director. (...) estamos ante la obra de un cineasta mayor (...) No queda más que quitarse, nuevamente, el sombrero ante Clint Eastwood. (…) Puntuación: ★★★★ (sobre 5)
+              </q>
+              <cite><a class="critics__quote-link" href="https://www.fotogramas.es/peliculas-criticas/a37701822/cry-macho-critica-pelicula/" target="_blank">Fausto Fernández: Fotogramas </a></cite>
+            </blockquote>
+          </div>
+          <div class="detail__video">
+            <img
+              class="detail__video-overlay"
+              srcset="./assets/images/crymacho-1.jpg?width=1160&quality=75, ./assets/images/crymacho-1.jpg?width=1450&quality=75 1.5x, ./assets/images/crymacho-1.jpg?width=1815&quality=75 2x"
+              src="./assets/images/crymacho-1.jpg?width=1160&quality75"
+              alt="Cry Macho Trailer" />
+            <i class="play-trailer fa-regular fa-circle-play"></i>  
+            <iframe class="trailer-video" src="https://www.youtube.com/embed/dp5J1FZnGVg?si=LJUsi4lQgx7aoT-n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div class="detail__trama">
+            <h2>
+              Resumen
+            </h2>
+            <p class="trama">
+              En 1979, la estrella del rodeo tejano Mike Milo se retiró debido a una grave lesión en la espalda. Al año siguiente, su ex jefe Howard Polk lo contrata para viajar a Ciudad de México y traer de regreso al hijo de 13 años de Howard, Rafo. Él acepta y al entrar a México, conoce a la madre del niño, Leta, quien le dice que Rafo se ha convertido en una vida delictiva, participando en peleas de gallos con un gallo llamado Macho. Poco después, Mike encuentra a Rafo participando en una pelea de gallos que es interrumpida por una redada policial. Después de que la policía se marcha, Mike le dice a Rafo que su padre quiere verlo. Intrigado, Rafo acepta ir con Mike de regreso a Texas y se va a empacar sus cosas.
+            </p>
+            <p class="trama">
+              Una Leta borracha le dice a Mike que quiere que su hijo se quede en México y lo amenaza. Después de que Mike se va, Leta ordena a varios de sus secuaces que lo sigan. Conduciendo de regreso a Texas solo, Mike descubre que Rafo se ha colado en su camioneta. Cuando Rafo le roba la billetera y comparte su deseo de pasar tiempo con su padre, Mike accede a llevarlo a la frontera. Durante el viaje, la pareja comparte historias sobre sus vidas, incluyendo cómo los secuaces de Leta solían abusar de Rafo, y discuten el significado de ser «macho».
+            </p>
+            <p class="trama">
+              En un restaurante, Mike llama a Howard y le dice que ha encontrado a Rafo. Fuera del restaurante, uno de los secuaces de Leta, Aurelio, intenta llevarse a Rafo a la fuerza y ​​les miente a los lugareños que Mike lo ha secuestrado. Rafo les dice a los lugareños que eso no es cierto y le dan una paliza a Aurelio. Después de que Mike y Rafo se van, los ladrones les roban el camión. Sin embargo, pronto encuentran un automóvil abandonado para usar. En una cantina, conocen a la dueña, Marta, quien accede a dejarlos pasar la noche después de notar que varios policías los están buscando. Al día siguiente, Mike se entera de que Rafo se ha hecho amigo de Marta.
+            </p>
+            <p class="trama">
+              Continuando con su viaje, Mike le dice a Rafo que perdió a su esposa e hijos en un accidente automovilístico. A la mañana siguiente, Marta los encuentra en un santuario y les trae el desayuno. Mike y Rafo notan que el auto que encontraron tiene una fuga y se ven obligados a dejarlo. Después de cruzar un rancho, Mike le enseña a Rafo a montar a caballo y le muestra su amor por los animales. La pareja regresa al café de Marta y comienza a pasar tiempo con su familia. También comienzan a pasar tiempo en el rancho y, en una llamada telefónica con Mike, Howard expresa su preocupación de que Mike haya estado en México durante dos semanas, más de lo esperado. Finalmente, los dos se despiden de Marta y comienzan su viaje final hacia la frontera.
+            </p>
+            <p class="trama">
+              Con un vehículo nuevo, se detienen después de notar que un patrullero los sigue. Mike revela que Howard le dijo por teléfono que quiere ver a Rafo simplemente para luchar contra Leta en la corte por su dinero. Un Rafo enojado intenta irse pero la policía los encuentra y registran su vehículo. Cuando no encuentran nada, los policías se van y la pareja continúa su viaje. Mientras conduce, Mike le dice a Rafo que ser «macho» está sobrevalorado y lo anima a tomar sus propias decisiones en la vida. Rafo dice que todavía quiere estar con su padre. Aurelio luego los encuentra, los saca de la carretera y los sostiene a punta de pistola. Sin embargo, Macho salta hacia él y Mike le roba el arma. Luego usan el auto de Aurelio para llegar a la frontera. Como último adiós, Rafo le da a Macho a Mike antes de reunirse con su padre. Mike permanece en el lado mexicano de la frontera y regresa con Marta.
+            </p>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <include src="./src/components/footer.html"></include>
+    
+  </body>
+</html>

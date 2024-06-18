@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Clint Eastwood - Un Legado Cinematográfico</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss">
+    <link rel="icon" type="image/x-icon" href="./assets/images/clint-favicon.ico">
+    <script type="module" src="./assets/scripts/main.js"></script>
+    <link href="../node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <include src="./src/components/header.html"></include>
+
+    <main class="main">
+      <section class="main__section filmografia container">
+        
+        
+        <h1 class="main__title">Filmografia <i class="fa-solid fa-film"></i></h1>
+        
+        <div class="flex-container">
+          <div class="flex-item-70">
+            <p class="main__description">
+              Clint Eastwood es un icono del cine estadounidense, conocido por su versatilidad como actor, director y productor. Nacido el 31 de mayo de 1930 en San Francisco, California, Eastwood comenzó su carrera en la industria cinematográfica en la década de 1950, pero alcanzó la fama en la década de 1960 con su papel en la serie de televisión "Rawhide".
+            </p>
+            <p class="main__description">
+              Eastwood se convirtió en un símbolo del cine del oeste con su interpretación del "Hombre sin Nombre" en la trilogía de spaghetti westerns dirigida por Sergio Leone. Su actuación en "Por un puñado de dólares", "La muerte tenía un precio" y "El bueno, el feo y el malo" lo catapultó a la fama internacional y estableció su reputación como un actor carismático y duro.
+            </p>
+            <p class="main__description">
+              A lo largo de su carrera, Eastwood ha explorado una amplia variedad de géneros cinematográficos, desde el western hasta el drama, el thriller y la comedia. Como director, ha sido aclamado por su habilidad para contar historias poderosas y emotivas, destacando películas como "Sin perdón", "Million Dollar Baby" y "Gran Torino".
+            </p>
+            <p class="main__description">
+              Además de su éxito en el cine, Eastwood también ha sido reconocido por su compromiso con la industria y su influencia en la cultura popular. Su legado perdura como una de las figuras más icónicas y respetadas de Hollywood, tanto por su talento en la pantalla como por su destreza detrás de la cámara.
+            </p>
+          </div>
+          <div class="flex-item-30">
+            <a href="./detail-crymacho.html"> 
+              <picture class="filmografia__picture">
+                <source
+                  srcset="
+                    ./assets/images/clint-directing-800w.jpg?as=webp&width=350 350w,
+                    ./assets/images/clint-directing-800w.jpg?as=webp&width=260 260w,
+                    ./assets/images/clint-directing-800w.jpg?as=webp&width=760 760w,
+                    ./assets/images/clint-directing-800w.jpg?as=webp&width=460 460w"
+                    sizes="(max-width: 375px) 350w, 
+                      (max-width: 500px) 460w, 
+                      (max-width: 799px) 760w, 
+                      (max-width: 900px) 260w, 
+                      350w" />
+                <img 
+                  src="./assets/images/clint-directing-800w.jpg?width=350"
+                  alt="Portada Cry Macho" />
+                  <figcaption> Clint Eastwood dirige el set de “Cry Macho”. (Claire Folger / Warner Bros.)</figcaption>
+              </picture>
+            </a>
+          </div>
+        </div>
+
+        <h1 class="main__title"><span class="main__title--secondary">Últimas películas como director</span></h1>
+
+        <div class="filmografia__list">
+          <div class="filmografia__item">
+            <div class="filmografia__item-image-wrapper">
+              <picture>
+                <source media="(max-width: 991px)" srcset="./assets/images/filmografia/crymacho.jpg?as=webp&width=460" type="image/webp" />
+                <source media="(min-width: 992px)" srcset="./assets/images/filmografia/crymacho.jpg?as=webp&width=380" type="image/webp" />
+                <img class="filmografia__item-image" src="./assets/images/filmografia/crymacho.jpg" alt="Cry Macho" />
+              </picture>
+            </div>
+            <div class="filmografia__item-text-wrapper hidden">
+              <h2 class="filmografia__item-title">Cry Macho (2021)</h2>
+              <p class="filmografia__item-description">Texas, 1978. Una ex estrella de rodeo y criador de caballos retirado (Eastwood) acepta un encargo de un antiguo jefe: traer a su hijo pequeño desde México de vuelta a casa para alejarlo de su madre alcohólica. En el viaje, ambos se embarcarán en una inesperada aventura.</p>
+              <a class="filmografia__item-link btn btn--yellow" href="./detail-crymacho.html" target="_blank">Más información</a>
+            </div>
+          </div>
+
+          <div class="filmografia__item">
+            <div class="filmografia__item-image-wrapper">
+              <picture>
+                <source media="(max-width: 991px)" srcset="./assets/images/filmografia/richardjewell.jpg?as=webp&width=460" type="image/webp" />
+                <source media="(min-width: 992px)" srcset="./assets/images/filmografia/richardjewell.jpg?as=webp&width=380" type="image/webp" />
+                <img class="filmografia__item-image" src="./assets/images/filmografia/richardjewell.jpg" alt="Richard Jewell" />
+              </picture>
+            </div>
+            <div class="filmografia__item-text-wrapper hidden">
+              <h2 class="filmografia__item-title">Richard Jewell (2019)</h2>
+              <p class="filmografia__item-description">Richard Jewell era un guardia de seguridad en los Juegos Olímpicos de Atlanta 1996, el cual descubrió una mochila con explosivos en su interior y evitó un número mayor de víctimas al ayudar a evacuar el área poco antes de que se produjera el estallido. En un principio se le presentó como un héroe cuya intervención salvó vidas, pero posteriormente Jewell pasó a ser considerado el sospechoso número uno y fue investigado como presunto culpable.</p>
+              <a class="filmografia__item-link btn btn--yellow" href="./detail-crymacho.html" target="_blank">Más información</a>
+            </div>
+          </div>
+
+          <div class="filmografia__item">
+            <div class="filmografia__item-image-wrapper">
+              <picture>
+                <source media="(max-width: 991px)" srcset="./assets/images/filmografia/trenparis.jpg?as=webp&width=460" type="image/webp" />
+                <source media="(min-width: 992px)" srcset="./assets/images/filmografia/trenparis.jpg?as=webp&width=380" type="image/webp" />
+                <img class="filmografia__item-image" src="./assets/images/filmografia/trenparis.jpg" alt="15:17 Tren a París" />
+              </picture>
+            </div>
+            <div class="filmografia__item-text-wrapper hidden">
+              <h2 class="filmografia__item-title">15:17 Tren a París (2019)</h2>
+              <p class="filmografia__item-description">En la tarde del 21 de agosto de 2015, tres jóvenes americanos que viajaban por Europa se enfrentaron a un terrorista en un tren con destino a París, con 500 pasajeros a bordo. La película narra el curso de las vidas de estos amigos, desde los avatares de su niñez para encontrar su destino, hasta la serie de eventos que precedieron al ataque. A lo largo de esta desgarradora experiencia, su amistad nunca flaqueó, convirtiéndola en su mejor arma.</p>
+              <a class="filmografia__item-link btn btn--yellow" href="./detail-crymacho.html" target="_blank">Más información</a>
+            </div>
+          </div>
+
+          <div class="filmografia__item">
+            <div class="filmografia__item-image-wrapper">
+              <picture>
+                <source media="(max-width: 991px)" srcset="./assets/images/filmografia/mula.jpg?as=webp&width=460" type="image/webp" />
+                <source media="(min-width: 992px)" srcset="./assets/images/filmografia/mula.jpg?as=webp&width=380" type="image/webp" />
+                <img class="filmografia__item-image" src="./assets/images/filmografia/mula.jpg" alt="Mula" />
+              </picture>
+            </div>
+            <div class="filmografia__item-text-wrapper hidden">
+              <h2 class="filmografia__item-title">Mula (2018)</h2>
+              <p class="filmografia__item-description">A Earl Stone (Eastwood), un octogenario que está en quiebra, solo, y que se enfrenta a la ejecución hipotecaria de su negocio, se le ofrece un trabajo aparentemente facil: sólo requiere conducir. Pero, sin saberlo, Earl se convirte en traficante de drogas para un cártel mexicano, y pasa a estar bajo el radar del agente de la DEA Colin Bates (Cooper).</p>
+              <a class="filmografia__item-link btn btn--yellow" href="./detail-crymacho.html" target="_blank">Más información</a>
+            </div>
+          </div>
+
+          <div class="filmografia__item">
+            <div class="filmografia__item-image-wrapper">
+              <picture>
+                <source media="(max-width: 991px)" srcset="./assets/images/filmografia/sully.jpg?as=webp&width=460" type="image/webp" />
+                <source media="(min-width: 992px)" srcset="./assets/images/filmografia/sully.jpg?as=webp&width=380" type="image/webp" />
+                <img class="filmografia__item-image" src="./assets/images/filmografia/sully.jpg" alt="Sully" />
+              </picture>
+            </div>
+            <div class="filmografia__item-text-wrapper hidden">
+              <h2 class="filmografia__item-title">Sully (2016)</h2>
+              <p class="filmografia__item-description">Chesley “Sully” Sullenberger es un piloto aéreo que en 2009 se convirtió en un héroe cuando, al poco de despegar, su avión se averió y logró realizar un aterrizaje forzoso del aparato en pleno río Hudson, en Nueva York, con 155 pasajeros a bordo.</p>
+              <a class="filmografia__item-link btn btn--yellow" href="./detail-crymacho.html" target="_blank">Más información</a>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="main__section premios container">
+        <h1 class="main__title">Premios <i class="fa-solid fa-award"></i><br/> 
+          <span class="main__title--secondary">Nominaciones Óscar</span>
+        </h1>
+        <div class="premios__list">
+          <div class="premios__item">
+            <div class="premios__item-image-wrapper">
+              <picture>
+                <source media="(max-width: 767px)" srcset="./assets/images/filmografia/americansniper.jpg?as=webp&width=700" type="image/webp" />
+                <source media="(min-width: 992px)" srcset="./assets/images/filmografia/americansniper.jpg?as=webp&width=380" type="image/webp" />
+                <img class="premios__item-image" src="./assets/images/filmografia/americansniper.jpg" alt="Óscar" />
+              </picture>
+            </div>
+            <div class="premios__item-content-wrapper">
+              <h2 class="premios__item-title">Mejor Película</h2>
+              <div class="premios__item-year">2014</div>
+              <div class="premios__item-description">American Sniper</div>
+            </div>
+          </div>
+
+          <div class="premios__item">
+            <div class="premios__item-image-wrapper">
+              <picture>
+                <source media="(max-width: 767px)" srcset="./assets/images/filmografia/cartasiwojima.jpg?as=webp&width=700" type="image/webp" />
+                <source media="(min-width: 992px)" srcset="./assets/images/filmografia/cartasiwojima.jpg?as=webp&width=380" type="image/webp" />
+                <img class="premios__item-image" src="./assets/images/filmografia/cartasiwojima.jpg" alt="Óscar" />
+              </picture>
+            </div>
+            <div class="premios__item-content-wrapper">
+              <h2 class="premios__item-title">Mejor Película</h2>
+              <div class="premios__item-year">2006</div>
+              <div class="premios__item-description">Cartas desde Iwo Jima</div>
+            </div>
+          </div>
+
+          <div class="premios__item">
+            <div class="premios__item-image-wrapper">
+              <picture>
+                <source media="(max-width: 767px)" srcset="./assets/images/filmografia/cartasiwojima.jpg?as=webp&width=700" type="image/webp" />
+                <source media="(min-width: 992px)" srcset="./assets/images/filmografia/cartasiwojima.jpg?as=webp&width=380" type="image/webp" />
+                <img class="premios__item-image" src="./assets/images/filmografia/cartasiwojima.jpg" alt="Óscar" />
+              </picture>
+            </div>
+            <div class="premios__item-content-wrapper">
+              <h2 class="premios__item-title">Mejor Director</h2>
+              <div class="premios__item-year">2006</div>
+              <div class="premios__item-description">Cartas desde Iwo Jima</div>
+            </div>
+          </div>
+
+          <div class="premios__item premios__item--ok">
+            <div class="premios__item-image-wrapper">
+              <picture>
+                <source media="(max-width: 767px)" srcset="./assets/images/filmografia/milliondollar.jpg?as=webp&width=700" type="image/webp" />
+                <source media="(min-width: 992px)" srcset="./assets/images/filmografia/milliondollar.jpg?as=webp&width=380" type="image/webp" />
+                <img class="premios__item-image" src="./assets/images/filmografia/milliondollar.jpg" alt="Óscar" />
+              </picture>
+            </div>
+            <div class="premios__item-content-wrapper">
+              <h2 class="premios__item-title">Mejor Director</h2>
+              <div class="premios__item-year">2004</div>
+              <div class="premios__item-description">Million Dollar Baby</div>
+            </div>
+          </div>
+
+          <div class="premios__item premios__item--ok">
+            <div class="premios__item-image-wrapper">
+              <picture>
+                <source media="(max-width: 767px)" srcset="./assets/images/filmografia/milliondollar.jpg?as=webp&width=700" type="image/webp" />
+                <source media="(min-width: 992px)" srcset="./assets/images/filmografia/milliondollar.jpg?as=webp&width=380" type="image/webp" />
+                <img class="premios__item-image" src="./assets/images/filmografia/milliondollar.jpg" alt="Óscar" />
+              </picture>
+            </div>
+            <div class="premios__item-content-wrapper">
+              <h2 class="premios__item-title">Mejor Película</h2>
+              <div class="premios__item-year">2004</div>
+              <div class="premios__item-description">Million Dollar Baby</div>
+            </div>
+          </div>
+
+          <div class="premios__item">
+            <div class="premios__item-image-wrapper">
+              <picture>
+                <source media="(max-width: 767px)" srcset="./assets/images/filmografia/milliondollar.jpg?as=webp&width=700" type="image/webp" />
+                <source media="(min-width: 992px)" srcset="./assets/images/filmografia/milliondollar.jpg?as=webp&width=380" type="image/webp" />
+                <img class="premios__item-image" src="./assets/images/filmografia/milliondollar.jpg" alt="Óscar" />
+              </picture>
+            </div>
+            <div class="premios__item-content-wrapper">
+              <h2 class="premios__item-title">Mejor Actor</h2>
+              <div class="premios__item-year">2004</div>
+              <div class="premios__item-description">Million Dollar Baby</div>
+            </div>
+          </div>
+
+          <div class="premios__item">
+            <div class="premios__item-image-wrapper">
+              <picture>
+                <source media="(max-width: 767px)" srcset="./assets/images/filmografia/mysticriver.jpg?as=webp&width=700" type="image/webp" />
+                <source media="(min-width: 992px)" srcset="./assets/images/filmografia/mysticriver.jpg?as=webp&width=380" type="image/webp" />
+                <img class="premios__item-image" src="./assets/images/filmografia/mysticriver.jpg" alt="Óscar" />
+              </picture>
+            </div>
+            <div class="premios__item-content-wrapper">
+              <h2 class="premios__item-title">Mejor Película</h2>
+              <div class="premios__item-year">2003</div>
+              <div class="premios__item-description">Mystic River</div>
+            </div>
+          </div>
+
+          <div class="premios__item">
+            <div class="premios__item-image-wrapper">
+              <picture>
+                <source media="(max-width: 767px)" srcset="./assets/images/filmografia/mysticriver.jpg?as=webp&width=700" type="image/webp" />
+                <source media="(min-width: 992px)" srcset="./assets/images/filmografia/mysticriver.jpg?as=webp&width=380" type="image/webp" />
+                <img class="premios__item-image" src="./assets/images/filmografia/mysticriver.jpg" alt="Óscar" />
+              </picture>
+            </div>
+            <div class="premios__item-content-wrapper">
+              <h2 class="premios__item-title">Mejor Director</h2>
+              <div class="premios__item-year">2003</div>
+              <div class="premios__item-description">Mystic River</div>
+            </div>
+          </div>
+
+          <div class="premios__item premios__item--ok">
+            <div class="premios__item-image-wrapper">
+              <picture>
+                <source media="(max-width: 767px)" srcset="./assets/images/filmografia/unforgiven.jpg?as=webp&width=700" type="image/webp" />
+                <source media="(min-width: 992px)" srcset="./assets/images/filmografia/unforgiven.jpg?as=webp&width=380" type="image/webp" />
+                <img class="premios__item-image" src="./assets/images/filmografia/unforgiven.jpg" alt="Óscar" />
+              </picture>
+            </div>
+            <div class="premios__item-content-wrapper">
+              <h2 class="premios__item-title">Mejor Director</h2>
+              <div class="premios__item-year">1993</div>
+              <div class="premios__item-description">Unforgiven</div>
+            </div>
+          </div>
+
+          <div class="premios__item premios__item--ok">
+            <div class="premios__item-image-wrapper">
+              <picture>
+                <source media="(max-width: 767px)" srcset="./assets/images/filmografia/unforgiven.jpg?as=webp&width=700" type="image/webp" />
+                <source media="(min-width: 992px)" srcset="./assets/images/filmografia/unforgiven.jpg?as=webp&width=380" type="image/webp" />
+                <img class="premios__item-image" src="./assets/images/filmografia/unforgiven.jpg" alt="Óscar" />
+              </picture>
+            </div>
+            <div class="premios__item-content-wrapper">
+              <h2 class="premios__item-title">Mejor Película</h2>
+              <div class="premios__item-year">1993</div>
+              <div class="premios__item-description">Unforgiven</div>
+            </div>
+          </div>
+
+          <div class="premios__item">
+            <div class="premios__item-image-wrapper">
+              <picture>
+                <source media="(max-width: 767px)" srcset="./assets/images/filmografia/unforgiven.jpg?as=webp&width=700" type="image/webp" />
+                <source media="(min-width: 992px)" srcset="./assets/images/filmografia/unforgiven.jpg?as=webp&width=380" type="image/webp" />
+                <img class="premios__item-image" src="./assets/images/filmografia/unforgiven.jpg" alt="Óscar" />
+              </picture>
+            </div>
+            <div class="premios__item-content-wrapper">
+              <h2 class="premios__item-title">Mejor Actor</h2>
+              <div class="premios__item-year">1993</div>
+              <div class="premios__item-description">Unforgiven</div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <include src="./src/components/footer.html"></include>
+
+  </body>
+</html>

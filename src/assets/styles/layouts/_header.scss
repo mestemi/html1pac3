@@ -1,0 +1,122 @@
+
+.home .header {
+    background-image: url('../images/header-mobile.jpg');
+    background-size: cover;
+    height: 100vh;
+
+    @include media-query($breakpoint-lg) {
+        background-image: url('../images/header.jpg');
+        clip-path: polygon(10% 0, 90% 0, 100% 100%, 0% 100%);
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to bottom right,#000c12,#f58a75);
+        opacity: .3; 
+        height: 100vh;
+    }
+}
+
+.header {
+ 
+    .btn-line {
+        width: 100%;
+        height: 4px;
+        background-color: $color-primary;
+    }
+    
+    .menu-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+    
+        @include media-query($breakpoint-lg) {
+            display: none;
+        }
+    }
+        
+    .menu {
+        display: none;
+        opacity: 0;
+        font-weight: 900;
+        background-color: #0006;
+        
+        &.active {
+            display: block;
+            transition: opacity 0.9s ease;
+            opacity: 1;
+    
+            @include media-query($breakpoint-lg) {
+                display: none;
+            }
+        }
+    
+        li a {
+            width: 100%;
+            display: block;
+            padding: 15px;
+        }
+    }
+
+    &__logo {
+        min-width: 50px;
+        max-width: 250px;
+        height: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    &__nav {
+        position: fixed;
+        width: 100vw;    
+        background-color: rgba(0, 0, 0, 0.4);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        z-index: 100;
+
+        &-list {
+            display: flex;
+            align-items: center;
+            margin: 10px;
+            padding: 0;
+            justify-content: start;
+
+            @include media-query($breakpoint-lg) {
+                justify-content: center;
+            }
+        }
+
+        &-item {
+            margin: 0 10px;
+            display: none;
+
+            @include media-query($breakpoint-lg) {
+                display: block;
+            }
+
+            &.header__nav-item--mobile {
+                display: block;
+
+                @include media-query($breakpoint-lg) {
+                    display: none;
+                }
+            }
+        }
+
+        &-link {
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: $font-family-header;
+            color: $color-white;
+            letter-spacing: 3px;
+        }
+    }
+}
