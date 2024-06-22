@@ -1,11 +1,11 @@
 
 .home .header {
-    background-image: url('../images/header-mobile.jpg');
+    background-image: url('../images/header-mobile.webp');
     background-size: cover;
     height: 100vh;
 
     @include media-query($breakpoint-lg) {
-        background-image: url('../images/header.jpg');
+        background-image: url('../images/header.webp');
         clip-path: polygon(10% 0, 90% 0, 100% 100%, 0% 100%);
     }
 
